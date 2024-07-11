@@ -1,0 +1,28 @@
+Create virtualenv:
+    virtualenv env(env is environment name)
+To activate:
+    cd env/Scripts
+    activate.bat / activate
+To deactivate:
+    cd env/Scripts
+    deactivate.bat / deactivate
+
+Install django:
+    pip install Django
+
+Create django project:
+    django-admin startproject projectName
+
+Create django app:
+    cd projectName
+    python manage.py startapp appName
+
+Register the app:
+    Goto settings.py file, under INSTALLED_APPS add your app
+    Do Not remove other apps
+
+    INSTALLED_APPS = [
+    'appName'
+    ]
+Start django project server:
+    python manage.py runserver
