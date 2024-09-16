@@ -4,7 +4,7 @@ from django.http import HttpResponse
 # Create your views here.
 def home(request):
     person = {
-        "name": "Yogita",
+        "name": "Yogita", 
         "city": "Pune",
         "marks": [98, 99, 97, 100]
     }
