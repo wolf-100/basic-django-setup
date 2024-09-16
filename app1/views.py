@@ -6,6 +6,6 @@ def home(request):
     person = {
         "name": "Yogita", 
         "city": "Pune",
-        "marks": [98, 99, 97, 99]
+        "grades": ["A", "B", "A"]
     }
     return render(request, "app1/index.html", person)
